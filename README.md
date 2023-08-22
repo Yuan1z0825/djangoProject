@@ -5,6 +5,8 @@
 ## 目录结构
 ![image](https://github.com/Yuan1z0825/djangoProject/assets/140061814/d1ad5609-e4b9-4157-86b2-a5c3dfe4fa23)
 
+### 1.一级目录下的static不用动
+其可以在完成修改后通过 python manage.py collectstatic命令生成，本地可以不生成，但是linux服务器需要nginx启动web 服务加载静态文件。
 
 
 
