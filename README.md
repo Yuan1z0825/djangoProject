@@ -3,7 +3,8 @@
 ## 目录结构
 
 ## 目录结构
-![Uploading image.png…]()
+![image](https://github.com/Yuan1z0825/djangoProject/assets/140061814/d1ad5609-e4b9-4157-86b2-a5c3dfe4fa23)
+
 
 
 
