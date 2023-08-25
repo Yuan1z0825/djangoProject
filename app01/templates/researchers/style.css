@@ -18,9 +18,12 @@
 	background:				url(images/content-fold.png) repeat-x;	
 }
 .boss_image{
-	margin:70px 100px 0 100px;
-	float:left;
+    width: 300px;
+    height: 300px;
+    margin: 70px 100px 0 100px;
+    float: left;
 }
+
 
 .boss_name{
 	margin:50px 0;	
