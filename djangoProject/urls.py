@@ -69,4 +69,7 @@ urlpatterns = [
     path('sleepEng/hardware.html', views.sleepEng_hardware, name='sleepEng_hardware'),
     path('sleepEng/service.html', views.sleepEng_service, name='sleepEng_service'),
     path('sleepEng/cooperation.html', views.sleepEng_cooperation, name='sleepEng_cooperation'),
+
+    #数据集的html路径
+    path('dataset_info/index.html', views.dataset, name='dataset'),
 ]

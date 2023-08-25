@@ -119,4 +119,7 @@ def sleepEng_cooperation(request):
     return render(request, 'sleepEng/cooperation.html')
 
 
+def dataset(request):
+    return render(request, 'dataset_info/index.html')
+
 
