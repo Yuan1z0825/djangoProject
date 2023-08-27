@@ -24,13 +24,15 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1050px; /* 设置最大宽度 */
-    margin: 0 auto; /* 居中显示 */
+    max-width: 1050px;
+    margin: 0 auto;
+    justify-content: space-between; /* This will ensure that the items are spaced out evenly */
+    align-items: start; /* This will ensure that the items are aligned to the top */
 }
 
 .boss_image {
-    flex: 0 0 250px; /* flex-grow, flex-shrink, flex-basis */
-    margin: 50px 100px 0 100px;
+    flex: 1 1 250px; /* flex-grow, flex-shrink, flex-basis */
+    margin: 50px 50px 0 0; /* Adjusted margin for better spacing */
 }
 
 .boss_image img {
@@ -40,14 +42,15 @@
 }
 
 .boss_name {
-    flex: 1; /* 允许它在有空间的情况下扩展 */
+    flex: 1;
     margin: 30px 0;
     font-size: 18px;
+    width: 100%; /* Ensures that the name takes the full width */
 }
 
 .boss_bio {
-    flex: 0 0 700px; /* flex-grow, flex-shrink, flex-basis */
-    margin: 20px 0 0 100px;
+    flex: 2 1 700px; /* flex-grow, flex-shrink, flex-basis */
+    margin: 20px 0;
     font-size: 18px;
 }
 
@@ -61,10 +64,4 @@
     line-height: 1.5;
 }
 
-/* 媒体查询，当屏幕宽度小于1050px时的样式 */
-@media (max-width: 1050px) {
-    .boss_image, .boss_bio {
-        margin: 20px 0;
-        flex-basis: 100%; /* 设置它们的基础宽度为100% */
-    }
-}
+
