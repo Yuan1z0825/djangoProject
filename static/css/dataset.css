@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Dataset styles */
+#homepage .fl_left {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#homepage .fl_left h1 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+}
+
+#homepage .fl_left ul li {
+    transition: background-color 0.3s ease;
+}
+
+#homepage .fl_left ul li:hover {
+    background-color: #f8f8f8;
+}

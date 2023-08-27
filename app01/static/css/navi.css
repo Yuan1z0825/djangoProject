@@ -25,7 +25,7 @@
 	color:#EBEBEC;
 	font-weight:bold;	
 	font-size:15px;
-	background:url("../img/topnav_right.gif") top left no-repeat transparent;
+	background:url("/static/img/topnav_right.gif") top left no-repeat transparent;
 	}
 #topnav li a:hover, #topnav li.active a{
 	background-position:0 -40px;

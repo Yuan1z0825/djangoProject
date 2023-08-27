@@ -61,7 +61,8 @@ def researcher_visiting(request):
 def researcher_finish(request):
     return render(request, 'researchers/finish.html')
 
-
+def liupeng(request):
+    return render(request, 'researchers/teachers/liupeng.html')
 
 
 

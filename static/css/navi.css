@@ -1,0 +1,78 @@
+
+#topnav{
+	position:relative;
+	margin:0 auto 0;
+	display:block;
+	width:960px;
+	padding:0 0 30px 0;
+	text-align:center;
+	}
+
+#topnav ul, #topnav li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#topnav li{
+	display:inline;
+	margin-right:6px;
+	}
+#topnav li a{
+	display:inline-block;
+	height:17px;
+	padding:12px 14px 11px 14px;
+	color:#EBEBEC;
+	font-weight:bold;	
+	font-size:15px;
+	background:url("../img/topnav_right.gif") top left no-repeat transparent;
+	}
+#topnav li a:hover, #topnav li.active a{
+	background-position:0 -40px;
+}
+#topnav li.last{
+	margin:0;
+}
+
+/* ----------------------------------------------Student Quick Navigation-------------------------------------*/
+
+#quicknav{
+	position:relative;
+	margin:0 auto;
+	display:block;
+	width:960px;
+	height:50px;
+	padding-top:30px;
+	text-align:center;
+	line-height:normal;
+	z-index:1000;
+	}
+
+#quicknav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#quicknav ul li{
+	float:left;
+	margin-right:22px;
+	padding-right:24px;
+	font-weight:bold;
+	border-right:1px solid #6A747B;
+	}
+#quicknav ul li a:hover,#quicknav ul li.active a{
+	background-color:#9B9D9D;
+}
+#quicknav ul li a{
+	display:block;
+	margin:0;
+	padding:0;
+	font-size:15px;
+	color:#6A7279;
+}
+
+#quicknav li.last{
+	border:none;
+	}
+
