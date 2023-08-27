@@ -49,6 +49,7 @@ urlpatterns = [
     path('researchers/visiting.html', views.researcher_visiting, name='reasercher_visiting'),
     path('researchers/finish.html', views.researcher_finish, name='reasercher_finish'),
     path('researchers/teachers/liupeng.html', views.liupeng, name='liupeng'),
+    path('researchers/graduate/doctor.html', views.graduate_doctor, name='graduate_doctor'),
 
     #关于培养方案的html路径
     path('cultivation/index.html', views.cultivation, name='cultivation'),

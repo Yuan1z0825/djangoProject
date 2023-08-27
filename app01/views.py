@@ -64,6 +64,8 @@ def researcher_finish(request):
 def liupeng(request):
     return render(request, 'researchers/teachers/liupeng.html')
 
+def graduate_doctor(request):
+    return render(request, 'researchers/graduate/doctor.html')
 
 
 # 关于培养方案的html路径
