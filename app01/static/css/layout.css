@@ -37,8 +37,8 @@ a{outline:none; text-decoration:none;}
 img.paper_img{float:right; width:200px; clear:right; margin:0 20px; padding:5px; border:1px solid #999999}
 /* ----------------------------------------------Wrapper-------------------------------------*/
 div.wrapper{
-	display:block;
-	width:100%;
+    display: flex;
+    flex-wrap: nowrap;  /* 确保子元素不会换行 */
 	}
 
 div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
@@ -47,6 +47,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	font-size:16px;
 	font-weight:normal;
 	line-height:normal;
+	white-space: nowrap;
 	}
 
 .row1{
@@ -57,7 +58,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 }
 .row3{
 	padding-top:30px; 
-	background:url("../images/featured_bg.gif") bottom left repeat-x #E0E0E0;
+	background:url("../img/featured_bg.gif") bottom left repeat-x #E0E0E0;
  }
 .row5{
 	color:#000000; 
@@ -197,7 +198,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 #footer .fl_right #social ul{margin:0; padding:0; list-style:none;}
 #footer .fl_right #social li{float:left; /* Only For IE */}
 #footer .fl_right #social a{display:block; float:left; width:49px; height:49px; margin-right:20px; overflow:hidden; 
-text-indent:-4000em; background:url("../images/social-sprite.gif") no-repeat;}
+text-indent:-4000em; background:url("../img/social-sprite.gif") no-repeat;}
 #footer .fl_right #social li.last a{margin-right:0;}
 
 #footer .last{margin:0;}
